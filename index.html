@@ -11,8 +11,8 @@
     <title>Sgerb</title>
 </head>
 <body>
-    <div class="navbar shadow rounded m-2 header fixed-top">
-        <span class="navbar-brand ms-2 p-0"><a href="index.html"><img src="./assets/logo.png" width="105" height="38"></a> <span class="badge bg-danger" id="motd"></span></span>
+    <div class="navbar shadow rounded m-2 header sticky-top">
+        <span class="navbar-brand p-0"><a href="index.html"><img src="./assets/logo.png" width="105" height="38"></a> <span class="badge bg-danger" id="motd"></span></span>
         <span class="me-2">
             <a class="btn bg-warning disabled border-0">editor</a>
             <a class="btn bg-warning disabled border-0">projects</a>
@@ -51,7 +51,10 @@
     <br>
     <div class="container shadow bg-light p-2 rounded" id="qna">
         <h3>Q&A</h3>
-        <h4 class="btn btn-warning shadow" data-bs-toggle="collapse" href="#qna-1" role="button" aria-expanded="false" aria-controls="qna-1">E</h5>
+        <div class="container border-2 rounded">
+            <h5>Is Sgerb better than Scratch?</h5>
+            <p>In every way</p>
+        </div>
     </div>
 
     <script src="./lib/index.js"></script>
